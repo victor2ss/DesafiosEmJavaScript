@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 10px;
+}
+
+img {
+  max-height: 100px;
+}
+
+.catalago-De-Filmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  flex-direction: row;
+}
+
+img {
+  max-height: 200px;
+  max-width: 90%;
+  margin: 0%;
+}
+
+img:hover{
+  transform: scale(1.2);
+}
+
+.filme{
+   padding: 2%;
+   display: inline-block;
+   max-width: 30%;
+   min-width: 10%; 
+}
+
+h2{
+  color: white;
+}
+
+p{
+  color: red;
+}
+
+.titulo {
+  text-align: center;
+  padding: 20px;
+  color: rgb(211, 230, 255);
+}
+
